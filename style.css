@@ -10,6 +10,7 @@ body {
   width: 80%;
   align-content: space-around;
   margin-left: 10%;
+  margin-bottom: 150px;
 }
 .top-img img {
   width: 280px;
@@ -31,7 +32,8 @@ body {
 }
 .division-part {
   display: flex;
-  align-content: space-between;
+  justify-content: space-around;
+  margin-bottom: 40px;
 }
 .dhaka-1 img {
   width: 100%;
@@ -39,8 +41,33 @@ body {
 .ctg-2 img {
   width: 100%;
 }
-.raj-3 img {
+.khulna-3 img {
   width: 100%;
 }
+.dhaka-1 {
+  width: 25%;
+  text-align: justify;
+  box-shadow: 10px 10px 40px gray;
+  border: 20px;
+  border-radius: 5px;
+}
 .ctg-2 {
+  width: 25%;
+  text-align: justify;
+  box-shadow: 10px 10px 40px gray;
+  border: 20px;
+  border-radius: 5px;
+}
+.khulna-3 {
+  width: 25%;
+  text-align: justify;
+  box-shadow: 10px 10px 40px gray;
+  border: 20px;
+  border-radius: 5px;
+}
+.division-part h2 {
+  text-align: center;
+}
+footer {
+  text-align: center;
 }
